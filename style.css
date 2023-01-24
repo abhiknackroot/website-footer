@@ -1,0 +1,100 @@
+*{
+    /* width:0; */
+    /* height:0; */
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    width:100%;
+    background-color: black;
+    color : whitesmoke;
+}
+.footer .footer-innersection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    width:90%;
+}
+
+.footer .footer-innersection .footer-aboutsection{
+    width:30%;
+}
+
+.menu-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-section a {
+    margin-top: 8px;
+}
+
+.decentraweb-section{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.snagged-section{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Footer Line */
+.line{
+    
+    
+    height:1px;
+    background-color: whitesmoke;
+}
+/* Footer Bottom */
+.footer-bottom{
+    display: flex;
+    padding:10px 15px;
+    justify-content: space-between;
+}
+
+/* Social Media Icon  */
+.fa{
+    color : whitesmoke;
+    text-decoration: none;
+    font-size: 40px;
+    margin:5px;
+}
+
+@media only screen and (max-width:1100px){
+  .footer .footer-innersection{
+    display: flex;
+    flex-direction: column;
+    /* width : 90%; */
+  }
+  .footer .footer-innersection .footer-aboutsection{
+    width:100%;
+  }
+  .footer .footer-innersection{
+    width:100%;
+    text-align: initial;
+  }
+  .menu-heading{
+    margin-top: 20px;
+  }
+  .aboutus{
+    text-align: left;
+  }
+  .footer-heading{
+    margin-top: 30px;
+  }
+  .footer{
+    width:100%;
+    padding :20px;
+    text-align: center;
+  }
+  .footer-bottom{
+    flex-direction: column-reverse;
+  }
+  .copyright-section{
+    margin-top:30px;
+  }
+}
